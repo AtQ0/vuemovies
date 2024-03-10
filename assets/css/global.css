@@ -1,0 +1,154 @@
+/* CONTENTS
+   1) Resets
+   2) Type
+   3) Global Variables
+      a) Type
+      b) Colors
+   4) Responsive stuff
+   ========================================================================== */
+
+
+/*====================================*/
+/*============= RESET CSS ============*/
+/*====================================*/
+
+body {
+    color: var(--body-text-white);
+    background: var(--radial-dark-blue);
+    height: 4000px;
+}
+
+
+body,
+h1,
+h2,
+p,
+ul,
+ol {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    outline: none;
+    padding: 0;
+    text-transform: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: var(--heading-font);
+    background-color: lightsalmon;
+}
+
+
+/*=====================================*/
+/*============ IMPORT FONTS ===========*/
+/*=====================================*/
+
+@font-face {
+    font-family: "SlateMedium";
+    src: url("../../assets/fonts/SlateMedium.TTF") format("opentype");
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SlateReg";
+    src: url("../../assets/fonts/SlateRg.TTF") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*=====================================*/
+/*========== SET UP VARIABLES =========*/
+/*=====================================*/
+
+:root {
+
+    /* Type
+    ==================================================
+    Headings, standfirsts:   SlateMedium
+    Body text:               SlateReg
+    ================================================== */
+    --heading-font: "SlateMedium";
+    --body-font: "SlateReg";
+
+
+    /* Colors
+    ==================================================
+    green       = 0aa696    dark chalk  = dedad9
+    salmon      = ee717c    mid grey    = 958f89
+    mustard     = fab843    dark slate  = 352e2f
+    ================================================== */
+
+    /*Background colors*/
+    --radial-dark-blue: radial-gradient(circle, rgba(48, 58, 72, 1) 37%, rgba(2, 0, 36, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(0, 93, 255, 1) 100%);
+    --light-gray: #50627B;
+
+    /*Text colors*/
+    --vue-green: #67AD7C;
+    --body-text-white: rgba(255, 255, 255, 1.0);
+    --unselected-white: rgba(255, 255, 255, 0.8);
+    --selected-white: rgba(255, 255, 255, 1.0);
+
+}
+
+
+/* RESPONSIVE STUFF
+    ==================================================
+    Small:   320 - 767   ( centered at 320  )
+    Medium:  768 - 959   ( columns at 768  )
+    Large:   960 - 1279  ( columns at 960  )
+    X-Large: 1280+       ( columns at 1280 )
+    ================================================== */
+
+
+
+/* Small : 320 - 767
+    ================================================== */
+
+
+
+/* Tablet and up : 768+ (also applies to desktop)
+    ================================================== */
+
+
+
+
+/* Medium : 768 - 959
+    ================================================== */
+
+
+
+
+/* Desktop and up : 960+
+    ================================================== */
+
+
+
+
+/* Larger : 960 - 1279
+    ================================================== */
