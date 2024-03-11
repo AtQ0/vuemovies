@@ -130,7 +130,7 @@
 
 .login-btn{
     font-size: var(--mobile-dynamic-letter-size);
-    margin-right: 10px;
+    margin-right: 20px;
     background-color: red;
     display: none;
 }
@@ -177,6 +177,10 @@
 
     .login-btn{
         display: inline;
+    }
+
+    .register-btn{
+        padding: 8px 15px;
     }
 
 
