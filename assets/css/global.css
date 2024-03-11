@@ -15,6 +15,7 @@
 body {
     color: var(--body-text-white);
     background: var(--radial-dark-blue);
+    font-family: var(--body-font);
     height: 4000px;
 }
 
@@ -59,7 +60,6 @@ h5,
 h6 {
     margin: 0;
     font-family: var(--heading-font);
-    background-color: lightsalmon;
 }
 
 
@@ -111,8 +111,12 @@ h6 {
     /*Text colors*/
     --vue-green: #67AD7C;
     --body-text-white: rgba(255, 255, 255, 1.0);
-    --unselected-white: rgba(255, 255, 255, 0.8);
-    --selected-white: rgba(255, 255, 255, 1.0);
+    --unselected-white: rgba(255, 255, 255, 1.0);
+    --selected-white: rgba(255, 255, 255, 0.8);
+
+
+    /*Font sizes*/
+    --mobile-dynamic-letter-size: 3.5vw;
 
 }
 
@@ -129,6 +133,7 @@ h6 {
 
 /* Small : 320 - 767
     ================================================== */
+
 
 
 
