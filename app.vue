@@ -4,6 +4,7 @@
 
   <main>
     <h1 @click="nameGenerator()">Hello World</h1>
+
   </main>
 
 
